@@ -1,0 +1,64 @@
+body {
+    background: #ffcd05;
+    padding: 0;
+    margin: 0;
+}
+canvas {
+    background: #555;
+    display: block;
+    margin: 0 auto;
+}
+#sound{
+    width: 30px;
+    height : 30px;
+    cursor: pointer;
+    position: absolute;
+    top : 600px;
+    left : 295px;
+}
+#pause{
+    width: 30px;
+    height : 30px;
+    cursor: pointer;
+    position: absolute;
+    top : 600px;
+    left : 335px;
+}
+#play{
+    width: 30px;
+    height : 30px;
+    cursor: pointer;
+    position: absolute;
+    top : 600px;
+    left : 375px;
+}
+#gameover{
+    position: absolute;
+    width : 960px;
+    height: 640px;
+    background: rgba(0,0,0,0.5);
+    left : 286px;
+    display: none;
+}
+#youwon{
+    width: 100px;
+    position: absolute;
+    top : 200px;
+    left : 435px;
+    display: none;
+}
+#youlose{
+    width: 400px;
+    position: absolute;
+    top: 100px;
+    left : 270px;
+    display: none;
+}
+#restart{
+    position: absolute;
+    top: 375px;
+    left : 440px;
+    cursor: pointer;
+    font-size: 1.25em;
+    color : #FFF;
+}

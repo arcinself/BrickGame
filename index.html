@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Let's Play</title>
+    <style>
+        body{
+            background-color: #ffcd05
+        }
+
+        #form {
+            align-self: center;
+            display: grid;
+            justify-items: center;
+            align-items: center;
+        }
+
+        #name::placeholder {
+            color: #000000;
+        }
+
+        #name {
+            background-color: #ffcd05;
+            border: none;
+            outline: none;
+            padding: 50px 20px 50px 125px;
+        }
+
+        #submit {
+            width: 28%;
+            padding: 7px;
+            border: none;
+            color: white;
+            font-weight: bold;
+            background-color: #000000;
+            cursor: pointer;
+        }
+
+    </style>
+
+</head>
+
+<body>
+<main id="main">
+
+    <form id="form" action="game.html" method="get">
+        <img src="images/logo.png">
+        <input type="text" name="name" id="name" placeholder="Enter name..." required>
+        <input type="submit" value="START" id="submit">
+    </form>
+
+</main>
+</body>
+
+</html>

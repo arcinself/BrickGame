@@ -63,7 +63,7 @@ const ball = {
 
 const brick = {
     row : 3,
-    column : 1,
+    column : 11,
     width : 55,
     height : 20,
     offSetLeft : 30,
